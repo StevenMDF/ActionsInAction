@@ -1,9 +1,7 @@
 name: My First Workflow
 on: 
-  push:
-    branches: main
   schedule:
-    - cron: '31 11 * * *'
+    - cron: '34 11 * * 6'
 
   workflow_dispatch:
 
